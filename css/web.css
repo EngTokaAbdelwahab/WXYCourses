@@ -1,0 +1,111 @@
+
+.navbar{
+    background-color: rgba(102, 92, 104, 0.418);
+    height: 50px;
+    
+}
+.container-fluid{
+    background-color: rgba(102, 92, 104, 0.418);
+    width: 100%;
+}
+
+.home{
+    background-image: url(../image/Home.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.home2{
+    padding-right: 50%;
+    padding-top: 20%;
+}
+h2::after{
+    content: "|";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+@keyframes type {
+    0%{content: "W";}
+    10%{content: "WX";}
+    20%{content: "WXY";}
+    30%{content: "WXY CO";}
+    40%{content: "WXY COUR";}
+    50%{content: "WXY COURSES";}
+    60%{content: "WXY COUR";}
+    70%{content: "WXY CO";}
+    80%{content: "WXY";}
+    90%{content: "WX";}
+    100%{content: "W";}
+}
+.ccc{
+    background-color:  rgba(102, 92, 104, 0.418);
+    width: 50%;
+    margin-left: 20%;
+    padding-left: 2%;
+    font-size: larger;
+}
+h4::after{
+    content: "412";
+    animation-name: vist;
+    animation-duration: 3s;
+    animation-iteration-count:inherit;
+}
+@keyframes vist{
+    0%{content: "0";}
+    10%{content: "01";}
+    20%{content: "131";}
+    30%{content: "352";}
+    40%{content: "165";}
+    50%{content: "458";}
+    60%{content: "445";}
+    70%{content: "432";}
+    80%{content: "423";}
+    90%{content: "415";}
+    100%{content: "412";}
+}
+
+h3::after{
+    content: "239";
+    animation-name: AttendCertificate;
+    animation-duration: 3s;
+    animation-iteration-count:inherit;
+}
+@keyframes AttendCertificate {
+    0%{content: "0";}
+    10%{content: "01";}
+    20%{content: "131";}
+    30%{content: "352";}
+    40%{content: "165";}
+    50%{content: "458";}
+    60%{content: "445";}
+    70%{content: "432";}
+    80%{content: "423";}
+    90%{content: "415";}
+    100%{content: "412";}
+}
+
+
+ .test{
+    background-color: rgb(rgb(235, 181, 252),);
+ }
+ footer{
+    background-color: rgb(102, 92, 104);
+ }
+ 
+ .btn{
+    /*color: #bd98c2;*/
+    background-color: #bd98c2;
+ }
+
+
+
+
